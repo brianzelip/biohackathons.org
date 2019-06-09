@@ -1,0 +1,10 @@
+@import 'palette.css';
+
+html {
+  height: 100vh;
+}
+
+body,
+.vh100 {
+  min-height: 100vh;
+}
