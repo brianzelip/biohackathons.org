@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Rewrite and upgrade of https://biohackathons.github.io.",
   "main": "src/index.html",
-  "scripts": {},
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "rm -rf dist .cache && parcel build src/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:brianzelip/biohackathons.org.git"
