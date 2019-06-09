@@ -8,3 +8,11 @@ body,
 .vh100 {
   min-height: 100vh;
 }
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
