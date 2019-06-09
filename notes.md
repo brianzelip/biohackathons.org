@@ -73,3 +73,15 @@ Used in the header for general aesthetics
 - creative commons medical images?
 - https://guides.lib.umich.edu/c.php?g=282888&p=1885044
   - https://visualsonline.cancer.gov/
+
+## Repo organization
+
+- need contributing guidelines - the steps folks should take to submit a PR (fork, new branch, work, test, submit PR)
+- need onboarding technical docs of how the site runs for org devs
+- need onboarding docs on how to update content (like the upcoming hackathons list, etc.) for org non-devs
+- have a list of what's editable by non-devs, for anyone to know what kind of content is maintainable in this project
+- changelog should keep track of changes to the site, not content; so once the site is up and running, content shouldn't really effect semver, except in fringe cases perhaps, on a case-by-case basis.
+- promote a git usage style guide for org devs
+  - feature branch
+  - granular commits
+  - commit messages
