@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>{{ siteName }}</h1>
-    <h2>WTF NETLIFY AND LET'S ENCRYPT?!?!?!</h2>
   </div>
 </template>
 
