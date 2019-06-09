@@ -1,5 +1,21 @@
 # notes
 
+## Proposed stack of new site
+
+- Vue.js, Parcel, Pug, Postcss workflow
+- Prerenders to a static site
+- Removes Parcel bundle if no javascript is used
+- Purges css for minimal style load
+- possible custom domain - biohackathons.org, registrar via Gandi, \$18/year
+- Netlify for deployment
+  - use forms
+  - use env vars if needed
+  - ci/cd from github repo
+  - fast
+  - custom domain and https possible
+- Use markdown files for bits of editable/writable content by devs and non-devs alike
+- Use yml files for local data, ie: upcoming hackathons list
+
 ## Audit existing site
 
 The needs of the organization should dictate the role and functionality of the site. Short of having a sit down with Ben and other key stakeholders, there's an audit that I can do of the current site, to model the role it's currently playing.
