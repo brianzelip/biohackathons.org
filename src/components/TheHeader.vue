@@ -1,5 +1,5 @@
 <template lang="pug">
-  header
+  header.vh100.col-12
     h1 {{ siteName }}
 </template>
 
@@ -12,3 +12,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+header {
+  background-image: url("../img/banner2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+</style>
