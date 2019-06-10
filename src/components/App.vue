@@ -1,15 +1,19 @@
 <template>
   <div class="vh100 flex flex-column align-items-center">
-    <h1>{{ siteName }}</h1>
-    <footer class="flex-grow flex align-items-end pb2">
-      <a href="https://www.zelip.me">by bzelip</a>&nbsp;|&nbsp;
-      <a href="https://github.com/brianzelip/biohackathons.org">Source code</a>
-    </footer>
+    <TheHeader></TheHeader>
+    <TheFooter class="flex-grow flex align-items-end pb2"></TheFooter>
   </div>
 </template>
 
 <script>
+import TheHeader from "./TheHeader.vue";
+import TheFooter from "./TheFooter.vue";
+
 export default {
+  components: {
+    TheHeader,
+    TheFooter
+  },
   data() {
     return {
       siteName: "BioHackathons.org"
