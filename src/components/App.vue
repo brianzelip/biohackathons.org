@@ -1,8 +1,7 @@
-<template>
-  <div class="vh100 flex flex-column align-items-center">
-    <TheHeader></TheHeader>
-    <TheFooter class="flex-grow flex align-items-end pb2"></TheFooter>
-  </div>
+<template lang="pug">
+  div.vh100.flex.flex-column.align-items-center
+    TheHeader
+    TheFooter.flex-grow.flex.align-items-end.pb2
 </template>
 
 <script>
