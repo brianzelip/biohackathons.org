@@ -10,6 +10,8 @@
           li
             a(href="#").btn.regular Contact
           li
+            a(href="#").btn.regular Resources
+          li
             a(href="#").btn.regular Join the mailing list
 </template>
 
