@@ -31,6 +31,10 @@ h6 {
     sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .align-items-center {
   align-items: center;
 }
