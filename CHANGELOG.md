@@ -6,7 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-## [0.2.0] - 2019-07-09
+## [0.3.0] - 2019-06-11
+
+### Meta
+
+- branch: header
+
+### Added
+
+- src/components/TheHeader.vue
+  - Header banner and nav bar adapted from biohackathons.github.io
+  - fixed nav bar on scroll
+- App.vue: Register and render TheHeader, delete unused data property
+
+## [0.2.0] - 2019-06-09
 
 ### Meta
 
@@ -17,7 +30,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - App.vue: hardcoded footer element, markup styles for centered text and sticky footer
 - main.css: flex styles for sticky footer
 
-## [0.1.0] - 2019-07-09
+## [0.1.0] - 2019-06-09
 
 ### Meta
 

@@ -1,5 +1,10 @@
 @import 'palette.css';
 
+:root {
+  --black: #222222;
+  --white: rgb(255, 249, 249);
+}
+
 html {
   height: 100vh;
 }
@@ -7,6 +12,11 @@ html {
 body,
 .vh100 {
   min-height: 100vh;
+}
+
+body {
+  color: var(--black);
+  background-color: var(--white);
 }
 
 body,
@@ -21,10 +31,27 @@ h6 {
     sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .align-items-center {
   align-items: center;
 }
 
 .align-items-end {
   align-items: flex-end;
+}
+
+.black {
+  color: var(--black);
+}
+.white {
+  color: var(--white);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-white {
+  background-color: var(--white);
 }

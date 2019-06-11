@@ -12,11 +12,6 @@ export default {
   components: {
     TheHeader,
     TheFooter
-  },
-  data() {
-    return {
-      siteName: "BioHackathons.org"
-    };
   }
 };
 </script>
