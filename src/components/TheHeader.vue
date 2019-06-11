@@ -3,7 +3,8 @@
     section.banner.col-12
     nav.bg-black
       div.flex.justify-between.align-items-center.container
-        h1.m0.h2.regular.white {{ siteName }}
+        h1.m0.h2.regular
+          a(href="/").white {{ siteName }}
         ul.list-reset.flex.mb0.white
           li
             a(href="#").btn.regular Hackathon products
