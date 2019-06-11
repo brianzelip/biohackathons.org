@@ -2,8 +2,15 @@
   header.col-12
     section.banner.col-12
     nav.bg-black
-      div.container
-        h1.m0.white {{ siteName }}
+      div.flex.justify-between.align-items-center.container
+        h1.m0.h2.regular.white {{ siteName }}
+        ul.list-reset.flex.mb0.white
+          li
+            a(href="#").btn.regular About
+          li
+            a(href="#").btn.regular Contact
+          li
+            a(href="#").btn.regular Join the mailing list
 </template>
 
 <script>
@@ -40,5 +47,13 @@ export default {
   .banner {
     height: 50vh;
   }
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+}
+
+.btn:hover {
+  background-color: hsla(0, 0%, 100%, 0.3);
 }
 </style>
