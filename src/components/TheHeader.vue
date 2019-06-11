@@ -24,6 +24,23 @@ export default {
     return {
       siteName: "BioHackathons"
     };
+  },
+  mounted() {
+    // fixed header on scroll via https://www.w3schools.com/howto/howto_js_sticky_header.asp
+    window.onscroll = function() {
+      fixedNavScroll();
+    };
+
+    const nav = document.querySelector("nav");
+    const sticky = nav.offsetTop;
+
+    function fixedNavScroll() {
+      if (window.pageYOffset > sticky) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
   }
 };
 </script>
@@ -67,5 +84,11 @@ li:last-child {
 
 .btn:hover {
   background-color: hsla(0, 0%, 100%, 0.3);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 </style>
