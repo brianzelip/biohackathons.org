@@ -6,13 +6,15 @@
         h1.m0.h2.regular.white {{ siteName }}
         ul.list-reset.flex.mb0.white
           li
+            a(href="#").btn.regular Hackathon products
+          li
             a(href="#").btn.regular About
           li
             a(href="#").btn.regular Contact
           li
             a(href="#").btn.regular Resources
           li
-            a(href="#").btn.regular Join the mailing list
+            a(href="#").btn.regular Join the mailing list!
 </template>
 
 <script>
@@ -51,8 +53,15 @@ export default {
   }
 }
 
+li {
+  margin-right: 0.5rem;
+}
+li:last-child {
+  margin-right: 0;
+}
+
 .btn {
-  padding: 1rem 1.5rem;
+  padding: 1rem;
 }
 
 .btn:hover {
