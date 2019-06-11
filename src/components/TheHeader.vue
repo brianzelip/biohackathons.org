@@ -1,7 +1,9 @@
 <template lang="pug">
   header.col-12
     section.banner.col-12
-    h1.m0 {{ siteName }}
+    nav.bg-soft-black
+      div.container
+        h1.m0.soft-white {{ siteName }}
 </template>
 
 <script>
