@@ -11,8 +11,10 @@
 export default {
   props: ["listType", "hackathons"],
   computed: {
-    hackathons() {
-      return hackathonsList;
+    title() {
+      return `${this.listType.slice(0, 1).toUpperCase()}${this.listType.slice(
+        1
+      )}`;
     }
   }
 };
