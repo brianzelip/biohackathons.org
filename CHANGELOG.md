@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.5.0] - 2019-06-12
+
+### Meta
+
+- branch name: upcoming events
+
+### Added/updated
+
+- src/data/pastHackathons.yml
+- HackathonsList.vue:
+  - 💅 styled it up based on existing site
+  - turned it into a reusable component by abstracting all of the hardcoded references to "upcoming hackathons"
+  - removed data imports, now accepts data via props
+- App.vue:
+  - imports yaml data and sends it to HackathonsList components as props
+  - renders both upcoming and past hackathon events
+
 ## [0.4.0] - 2019-06-12
 
 ### Meta
