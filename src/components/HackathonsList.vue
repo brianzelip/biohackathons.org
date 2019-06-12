@@ -3,10 +3,6 @@
 </template>
 
 <script>
-const fs = require("fs");
-const path = require("path");
-import yaml from "js-yaml";
-
 export default {
   data() {
     return {
