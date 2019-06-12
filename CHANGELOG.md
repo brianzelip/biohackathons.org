@@ -14,8 +14,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added/Updated
 
-- js-yaml devDependecy
-- src/data/upcomingHackathons.yml
+- src/data/upcomingHackathons.yml: Parcel's [yaml support](https://parceljs.org/yaml.html) ftw 🎉
+- src/components/HackathonsList.vue: Component to render out event data from local yaml file
 
 ## [0.3.0] - 2019-06-11
 
