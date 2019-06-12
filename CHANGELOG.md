@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added/Updated
 
+- js-yaml devDependecy
 - src/data/upcomingHackathons.yml
 
 ## [0.3.0] - 2019-06-11
