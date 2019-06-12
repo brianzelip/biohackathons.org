@@ -13,16 +13,7 @@ export default {
       eventList: {}
     };
   },
-  created() {
-    // console.log("component created!");
-    // const data = yaml.safeLoad("../data/upcomingHackathons.yml");
-    // console.log("data obj is:::::", data);
-  },
-  mounted() {
-    const doc = fs.readFileSync(
-      path.join(__dirname, "../data/upcomingHackathons.yml"),
-      "UTF-8"
-    );
-  }
+  created() {},
+  mounted() {}
 };
 </script>
