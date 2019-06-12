@@ -1,14 +1,15 @@
 <template lang="pug">
-  section.vh100
-    ol
-      li(v-for="hackathon in hackathons") {{ hackathon.date }}, 
-        a(:href="hackathon.link") {{ hackathon.loc }}
+  section.mt3.col-12
+    div.container.p2.bg-silver
+      h1 {{ title }} Hackathons
+      ul
+        li(v-for="hackathon in hackathons").h3 {{ hackathon.date }}, 
+          a(:href="hackathon.link") {{ hackathon.loc }}
 </template>
 
 <script>
-import hackathonsList from "../data/upcomingHackathons.yml";
-
 export default {
+  props: ["listType", "hackathons"],
   computed: {
     hackathons() {
       return hackathonsList;
