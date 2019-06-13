@@ -4,16 +4,18 @@
     nav.bg-black
       div.flex.justify-between.align-items-center.container
         h1.m0.h2.regular
-          a(href="/").white {{ siteName }}
+          a(href="/").hover-decoration-none.white {{ siteName }}
         ul.list-reset.flex.mb0.white
           li
-            a(href="#").btn.regular Hackathon products
+            a(href="#").btn.regular Events
+          li
+            a(href="#").btn.regular Products
           li
             a(href="#").btn.regular About
           li
-            a(href="#").btn.regular Contact
-          li
             a(href="#").btn.regular Resources
+          li
+            a(href="#").btn.regular Contact
           li
             a(href="#").btn.regular Join the mailing list!
 </template>
