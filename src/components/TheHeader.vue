@@ -5,27 +5,34 @@
       div.flex.justify-between.align-items-center.container
         h1.m0.h2.regular
           a(href="/").hover-decoration-none.white {{ siteName }}
-        ul.list-reset.flex.mb0.white
-          li
-            a(href="#").btn.regular Events
-          li
-            a(href="#").btn.regular Products
-          li
-            a(href="#").btn.regular About
-          li
-            a(href="#").btn.regular Resources
-          li
-            a(href="#").btn.regular Contact
-          li
-            a(href="#").btn.regular Join the mailing list!
+        ul.list-reset.flex.align-items-center.mb0.white
+          li(v-for="link in links")
+            a(
+              :href="link.url"
+              :class="{'btn-outline': isAddHackathon(link.text), cta: isAddHackathon(link.text)}"
+              ).btn.regular {{ link.text }}
 </template>
 
 <script>
 export default {
   data() {
     return {
-      siteName: "BioHackathons"
+      siteName: "BioHackathons",
+      links: [
+        { text: "Events", url: "#" },
+        { text: "About", url: "#" },
+        { text: "Products", url: "#" },
+        { text: "Resources", url: "#" },
+        { text: "Contact", url: "#" },
+        { text: "Mailing list", url: "#" },
+        { text: "Add your hackathon!", url: "#" }
+      ]
     };
+  },
+  methods: {
+    isAddHackathon(text) {
+      return text === "Add your hackathon!";
+    }
   },
   mounted() {
     // fixed header on scroll via https://www.w3schools.com/howto/howto_js_sticky_header.asp
@@ -86,6 +93,10 @@ li:last-child {
 
 .btn:hover {
   background-color: hsla(0, 0%, 100%, 0.3);
+}
+
+.btn.cta {
+  padding: 0.6rem 1rem;
 }
 
 .sticky {
