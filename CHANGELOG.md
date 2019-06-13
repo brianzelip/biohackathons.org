@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.5.1] - 2019-06-13
+
+### Meta
+
+- branch name: header-tweaks
+
+### Added/updated
+
+- main.css: hover class
+- TheHeader.vue:
+  - update nav link innerHTML
+  - update h1 link hover
+
 ## [0.5.0] - 2019-06-12
 
 ### Meta
