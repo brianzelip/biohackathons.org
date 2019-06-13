@@ -24,7 +24,7 @@ export default {
         { text: "Products", url: "#" },
         { text: "Resources", url: "#" },
         { text: "Contact", url: "#" },
-        { text: "Mailing list", url: "#" },
+        { text: "Join mailing list", url: "#" },
         { text: "Add your hackathon!", url: "#" }
       ]
     };
