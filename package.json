@@ -1,6 +1,6 @@
 {
   "name": "biohackathons.org",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Rewrite and upgrade of https://biohackathons.github.io.",
   "main": "src/index.html",
   "scripts": {
