@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.6.0] - 2019-06-13
+
+### Meta
+
+- branch name: master
+
+### Added/updated
+
+- main.css: Add border-box styles from Tachyons
+- TheHeader.vue:
+  - Refactor hardcoded nav links into v-for and data props
+  - Differentiate between normal nav links and the call to action by dynamically applying cta classes
+
 ## [0.5.1] - 2019-06-13
 
 ### Meta
