@@ -19,7 +19,7 @@ export default {
     return {
       siteName: "BioHackathons",
       links: [
-        { text: "Events", url: "#" },
+        { text: "Events", url: "#events" },
         { text: "About", url: "#" },
         { text: "Products", url: "#" },
         { text: "Resources", url: "#" },

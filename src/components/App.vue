@@ -1,7 +1,7 @@
 <template lang="pug">
   div.vh100.flex.flex-column.align-items-center
     TheHeader
-    HackathonsList(listType="upcoming" :hackathons="upcomingHackathons")
+    HackathonsList(listType="upcoming" :hackathons="upcomingHackathons")#events
     HackathonsList(listType="past" :hackathons="pastHackathons")
     TheFooter.flex-grow.flex.align-items-end.pb2
 </template>
