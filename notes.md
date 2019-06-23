@@ -105,3 +105,20 @@ Used in the header for general aesthetics
 ## Language about bio hackathons
 
 - "biological data science hackathons", via [manuscript abstract](https://f1000research.com/articles/5-672)
+
+## Link data enumaration
+
+The list should look something like:
+
+```json
+[
+  {
+    "pageTitle": "",
+    "data": {
+      "title": "",
+      "url": "",
+      "description": ""
+    }
+  }
+]
+```
