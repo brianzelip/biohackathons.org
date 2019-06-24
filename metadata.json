@@ -54,5 +54,13 @@
       "url": "https://www.commonwl.org/",
       "description": ""
     }
+  },
+  {
+    "pageTitle": "Selected Hackathon Products",
+    "data": {
+      "title": "https://github.com/NCBI-Hackathons/Community_Software_Tools_for_NGS",
+      "url": "https://github.com/NCBI-Hackathons/Community_Software_Tools_for_NGS",
+      "description": ""
+    }
   }
 ]
