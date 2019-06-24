@@ -1,0 +1,95 @@
+---
+- links:
+    - pageTitle: Resources
+      text: Link to Biohackathons Website
+      url: http://biohackathon.org/
+    - pageTitle: Resources
+      text: Link to Hackathons on Elixir TESS
+      url: https://tess.elixir-europe.org/search?utf8=%E2%9C%93&q=hackathon
+    - pageTitle: Resources
+      text: Link to main Github Repo for NCBI Hackathons
+      url: https://github.com/NCBI-Hackathons
+    - pageTitle: Resources
+      text: Link to F1000 Research Hackathons Page
+      url: https://f1000research.com/search?q=hackathons
+    - pageTitle: Community Resources
+      text: An old list of community software
+      url: https://www.github.com/NCBI-Hackathons/Community_Software_Tools_for_NGS
+    - pageTitle: Community Resources
+      text: bcbio workflows
+      url: https://bcbio-nextgen.readthedocs.io/en/latest/contents/testing.html#example-pipelines
+    - pageTitle: Community Resources
+      text: CWL workflows
+      url: https://www.commonwl.org/
+    - pageTitle: Selected Hackathon Products
+      text: https://github.com/NCBI-Hackathons/Community_Software_Tools_for_NGS
+      url: https://github.com/NCBI-Hackathons/Community_Software_Tools_for_NGS
+    - pageTitle: About
+      text: NCBI Blog Posts About Hackathons
+      url: https://ncbiinsights.ncbi.nlm.nih.gov/tag/hackathon/
+    - pageTitle: About
+      text: r/Bioinformatics
+      url: https://www.reddit.com/r/bioinformatics/
+- about:
+    - title: Goal
+      text: Bringing people together to build tools to or perform advanced bioinformatics analysis.
+    - title: Products
+      text: Some pipelines and other scripts, software and programs generated in the events will be added to public GitHub repositories designed for that purpose.\r\nA manuscript outlining the design and usage of the software tools constructed by each team may be submitted to an appropriate journal, such as the F1000Research Hackathons channel.
+    - title: Notes
+      text: Typically, participants will need to bring their own laptop to these programs.
+    - title: Publicity
+      text:
+        - linkText: NCBI Blog Posts About Hackathons
+          linkUrl: https://ncbiinsights.ncbi.nlm.nih.gov/tag/hackathon/
+        - linkText: r/Bioinformatics
+          linkUrl: https://www.reddit.com/r/bioinformatics/
+    - title: Hackathon styles employed by various institutions
+      text: 
+        - heading: Biohackathon (DBCLS/NBDC)
+          description: Duration:5-7 days\n
+            Time per day:24 hours\n
+            Goals:\n
+            - Open source infrastractures for data interoperability\n
+            - Data integration\n
+            - Identifiers, metadata, ontologies\n
+            \n
+            Main topics:Data Interoperability, Bioinformatics, Semantic Web, Machine Learning\n
+            Frequency:1 per year\n
+            Conference associated:BioHackathon symposium (1 day)\n
+        - heading: BOSC
+          description: Duration:2-4 days\n
+            Time per day:variable\n
+            Goals:\n
+            - Data Analysis\n
+            - Tool-building\n
+            \n
+            Main topics:Bioinformatics, Workflows, Community Standards, Data Interoperability, Data Visualisation\n
+            Frequency:1 per year\n
+            Conference associated:BOSC\n
+        - heading: European BioHackathon (Elixir/DBCLS/NBDC)
+          description: Duration:5 days\n
+            Time per day:24 hours\n
+            Goals:\n
+            - Open source infrastructures for data interoperability\n
+            - Data integration\n
+            - Identifiers, metadata, ontologies\n
+            - Strengthen interactions between Elixir platforms/groups and community\n
+            \n
+            Main topics:Data Interoperability, Bioinformatics, Semantic Web, Machine Learning\n
+            Frequency:1 per year\n
+            Conference associated:Biohackathon symposium (1 day)\n
+        - heading: NCBI
+          description: Duration:3 days\n
+            Time per day:~9 hours/day\n
+            Goals:\n
+            - Data Analysis\n
+            - Tool-building\n
+            Main topics:Genomics, Bioinformatics, Clinical Informatics, Image analysis, Machine Learning\n
+            Frequency:~12/year\n
+            Conference associated:Varies\n
+- contact:
+  - email: biohackathons@gmail.com
+  - email: ben.busby@nih.gov
+  - twitter: dcgenomics 
+  - github: biohackathons
+  - github: NCBI-Hackathons
