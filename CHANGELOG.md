@@ -6,7 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-## [0.7.0] - 2019-06-23
+## [0.7.1] - 2019-06-24
+
+### Meta
+
+- branch: master
+- reason: Netlify is not building the site after the latest PR, it might be because the new file name `metadata.yaml` - there may be some conflict in the background somewhere. Let's change that file name!
+
+### Updated
+
+- metadata.yml: renamed site-data.yml
+
+## [0.7.0] - 2019-06-24
 
 ### Meta
 
