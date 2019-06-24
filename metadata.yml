@@ -44,7 +44,7 @@
         - linkText: r/Bioinformatics
           linkUrl: https://www.reddit.com/r/bioinformatics/
     - title: Hackathon styles employed by various institutions
-      text: 
+      text:
         - heading: Biohackathon (DBCLS/NBDC)
           description: Duration:5-7 days\n
             Time per day:24 hours\n
@@ -88,8 +88,8 @@
             Frequency:~12/year\n
             Conference associated:Varies\n
 - contact:
-  - email: biohackathons@gmail.com
-  - email: ben.busby@nih.gov
-  - twitter: dcgenomics 
-  - github: biohackathons
-  - github: NCBI-Hackathons
+    - email: biohackathons@gmail.com
+    - email: ben.busby@nih.gov
+    - twitter: dcgenomics
+    - github: biohackathons
+    - github: NCBI-Hackathons
