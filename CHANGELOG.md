@@ -13,9 +13,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - branch: site-data
 - reason: audit the site to compile all of the data groupings/categories and data points. This list represents the main uses/functions of the site, and will be the basis for architecting the new site draft. The data on the current website is awkward, inconsistent, duplicative, and generally messy. The goal behind this branch work is to tame this data mess, and provide a guide for the new site draft.
 
-### Updated
+### Added
 
-- notes.md
+- metadata.yml: store all the site data
 
 ## [0.6.0] - 2019-06-13
 
