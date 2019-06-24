@@ -101,3 +101,7 @@ Used in the header for general aesthetics
   - feature branch
   - granular commits
   - commit messages
+
+## Language about bio hackathons
+
+- "biological data science hackathons", via [manuscript abstract](https://f1000research.com/articles/5-672)
