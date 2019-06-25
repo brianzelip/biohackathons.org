@@ -2,7 +2,7 @@
   div.vh100.flex.flex-column.align-items-center
     TheHeader
     router-view
-    TheFooter.flex-grow.flex.align-items-end.pb2
+    TheFooter
 </template>
 
 <script>
