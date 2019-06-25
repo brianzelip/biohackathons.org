@@ -15,5 +15,4 @@
         ul.list-reset
           li
             a(href="https://ncbiinsights.ncbi.nlm.nih.gov/tag/hackathon/") NCBI blog posts about hackathons
-  </footer>
 </template>
