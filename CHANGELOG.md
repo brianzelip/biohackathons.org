@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+[0.8.0] - 2019-06-25
+
+### Meta
+
+- branch: pages
+- reason: start fleshing out the pages, what we're all about at this point in the project is porting the old site into the new environment. This should include VueRouter.
+
+### Added/updated
+
+- install VueRouter
+
 ## [0.7.1] - 2019-06-24
 
 ### Meta
