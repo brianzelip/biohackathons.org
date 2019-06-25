@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - main.js: import VueRouter and routes
 - TheHomePage.vue: Create new wrapper component for router view
 - App.vue: Refactor out some scripts and markup to TheHomePage.vue
+- TheFooter.vue: Refactored into style like current biohackathons.github.io site
 
 ## [0.7.1] - 2019-06-24
 
