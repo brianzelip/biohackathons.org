@@ -105,3 +105,10 @@ Used in the header for general aesthetics
 ## Language about bio hackathons
 
 - "biological data science hackathons", via [manuscript abstract](https://f1000research.com/articles/5-672)
+
+## On design
+
+- the event lists can be more immediately informative:
+  - columns: date, country, city, title
+  - example of making each list item more of a card, https://www.open-bio.org/events/
+  - BUT FIRST, LET'S PORT THE OLD SITE TO VUE, THEN REDESIGN!
