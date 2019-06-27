@@ -112,3 +112,14 @@ Used in the header for general aesthetics
   - columns: date, country, city, title
   - example of making each list item more of a card, https://www.open-bio.org/events/
   - BUT FIRST, LET'S PORT THE OLD SITE TO VUE, THEN REDESIGN!
+
+- what's the main data of the site?
+  - upcoming events
+  - products created from past events
+  - form to add your hackathon to the list
+  - about/why
+  - contact
+  
+it's clear future hackathon events and the list of products are the main data points - EMPHASIZE THESE
+
+- maybe a two column home view, 1: upcoming events, 2: products
